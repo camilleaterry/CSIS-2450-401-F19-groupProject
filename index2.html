@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <!Header Information: Contains Link to Javascript File and CSS File>
+    <head>
+        <link rel="stylesheet" href="ShoppingCartStyle2.css">
+        <meta charset = "utf-8">
+    </head>
+    
+    <header class="header-navigation" id="header">
+        <nav>
+            <a style="color: black" class="link" href="#" title="Home">Home</a>
+            <a style="color: black" class="link" href="#" title="About">About</a>
+            <a style = "color: black" class="link" href="https://pickle-rick.net/calendar.php" title="Calandar">Calandar</a>
+        </nav>
+    </header>
+
+    
+    <body>
+        <title>Shopping List</title>
+        
+    <!Title of Website and Instructions on What the Text Input Boxes are For>
+    <div class = "header">
+        
+        <h1>
+            Shopping List
+        </h1>
+        <h2>
+            Please enter what needs to be added to the shopping cart below
+        </h2>
+    </div>
+        
+         
+    <!Text Input Boxes and Enter Button>
+    <form class="ItemAndQuantity" action="" method="get">
+            <input type = "text" id = "item" name="ItemName" size="75">
+            <input type="number" id = "quantity" name="ItemQuantity" size="5">
+            <button type="button" id = "enterButton">enter</button>
+    </form>
+        
+        <div class="itemsEntered">
+			<div align="right" class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+        </div>
+        
+    <script type="text/javascript" src = "ShoppingCartLogic2.js"></script>
+    </body>
+    
+    <div id="container">
+
+    <div style = "color: black; text-align: center;"id="footer"> CREATED BY: PICKLE RICK!!! </div>
+</div>
+</html>
